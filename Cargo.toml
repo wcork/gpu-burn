@@ -1,0 +1,16 @@
+[package]
+name = "gpu-burn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+num-traits = "0.2"
+rand = { version = "0.9", features = ["std", "std_rng"] }
+
+cudarc = { path = "third-party/cudarc", features = ["cuda-12080"] }
+
+[build-dependencies]
+anyhow = "1.0"
+bindgen = "0.71"
