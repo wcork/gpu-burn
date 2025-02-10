@@ -6,3 +6,7 @@ an older [C/C++ project](https://github.com/wilicc/gpu-burn) of the same name.
 
 I intent to use this project as a baseline for integrating `ptx` kernels from
 `cu` kernels or others into my other projects.
+
+# Status
+
+Not stable or complete. Just some experiments with `cudarc`
